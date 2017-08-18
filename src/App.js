@@ -1,22 +1,13 @@
 import React from 'react'
 import Footer from './components/Footer'
 import './App.css'
-import styled from 'styled-components';
-const Button = styled.button`
-  border-radius: 3px;
-  padding: 0.25em 1em;
-  margin: 0 1em;
-  background: palevioletred;
-  color: white;
-  border: 2px solid palevioletred;
-`
-
+import styled from 'styled-components'
 
 class App extends React.Component {
   render() {
     return (
       <div className="App-header">
-        <h1>Saint Paul Soap</h1><Button>Button</Button>
+        <h1>Saint Paul Soap</h1>
         <Footer />
       </div>
     );

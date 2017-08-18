@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import Header from './components/Header'
-import Footer from './components/Footer'
-import registerServiceWorker from './registerServiceWorker';
+import {Router, browserHistory} from 'react-router'
+import Routes from './routes'
+import App from './App'
+
 
 ReactDOM.render(
-  <App />, document.getElementById('root'));
-registerServiceWorker();
+  <App
+  />,
+  document.getElementById('root')
+)
