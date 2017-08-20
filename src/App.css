@@ -2,6 +2,17 @@
   text-align: center;
 }
 
+.AppNav {
+  padding: 1rem 1rem 1rem 1rem;
+  margin: 3rem 3rem 3rem 3rem;
+  color: orange
+}
+
+.AppNav:hover {
+  color: blue;
+  font-size: 20px;
+}
+
 .App-header {
   text-align: center;
   background-color: beige;

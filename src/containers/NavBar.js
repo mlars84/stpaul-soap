@@ -1,13 +1,13 @@
 import React, {Component} from 'react'
-import './App.css'
+import '../App.css'
 
 class NavBar extends Component {
   render() {
     return(
-      <nav className="App">
-        <li><a href="*">Home</a></li>
-        <li><a href="*">About</a></li>
-        <li><a href="*">Contact</a></li>
+      <nav >
+        <li><a className="AppNav" href="*">Home</a></li>
+        <li><a className="AppNav" href="*">About</a></li>
+        <li><a className="AppNav" href="*">Contact</a></li>
       </nav>
     )
   }
