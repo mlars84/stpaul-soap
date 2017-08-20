@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import {Router, browserHistory} from 'react-router'
 import Routes from './routes'
 import App from './App'
+import NavBar from './containers/NavBar'
 
 
 ReactDOM.render(
-  <App
+  <NavBar
   />,
   document.getElementById('root')
 )
