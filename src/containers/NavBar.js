@@ -5,9 +5,9 @@ class NavBar extends Component {
   render() {
     return(
       <nav >
-        <li><a className="AppNav" href="*">Home</a></li>
-        <li><a className="AppNav" href="*">About</a></li>
-        <li><a className="AppNav" href="*">Contact</a></li>
+        <a className="AppNav" href="*">Home</a>
+        <a className="AppNav" href="*">About</a>
+        <a className="AppNav" href="*">Contact</a>
       </nav>
     )
   }
