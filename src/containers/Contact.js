@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 
-class Conatc extends Component {
+class Contact extends Component {
   render() {
     return(
       <h1>Stuff</h1>
