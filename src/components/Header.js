@@ -1,2 +1,17 @@
 import React, {Component} from 'react'
-import {Navbar, Nav, NavItem, Glyphicon} from 'react-bootstrap'
+import { Top } from '../styled/Header'
+
+class Header extends React.Component {
+  render() {
+    return (
+      <Top>
+        <div>
+          <h4>Saint Paul Soap</h4>
+        </div>
+      </Top>
+    );
+  }
+}
+
+
+export default Header;

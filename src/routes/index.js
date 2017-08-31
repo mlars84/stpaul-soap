@@ -1,16 +1,16 @@
 // import React from 'react'
-// import {Route, IndexRoute} from 'react-router'
+// import {Route} from 'react-router'
 // import Template from '../containers/Template'
 // import Home from '../containers/Home'
 //
 //
 // const createRoutes = () => {
 //   return (
-//     <Route
+//     <Route exact
 //       path='/'
-//       // component={Template}
+//       component={Template}
 //     >
-//       <IndexRoute
+//       <Route exact
 //         component={Home}
 //       />
 //     </Route>
