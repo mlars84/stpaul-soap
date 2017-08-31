@@ -1,10 +1,23 @@
 import React, {Component} from 'react'
-import {Stuff} from '../styled/Home'
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
+import { All, Body, Header, Footer } from '../styled/Home'
 
 class Home extends Component {
   render() {
     return(
-      <h1>Stuff</h1>
+      <MuiThemeProvider>
+        <All>
+          <Header>
+            StPaulSoap.COM
+          </Header>
+          <Body>
+            This is the body
+          </Body>
+          <Footer>
+            thanks for stopping by :)
+          </Footer>
+        </All>
+      </MuiThemeProvider>
     )
   }
 }

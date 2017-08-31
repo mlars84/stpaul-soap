@@ -10,12 +10,6 @@ class Header extends React.Component {
         <div>
           <h4>Saint Paul Soap</h4>
         </div>
-        <MuiThemeProvider>
-          <AppBar
-            title="Nav"
-            iconClassNameRight="muidocs-icon-navigation-expand-more"
-          />
-        </MuiThemeProvider>
       </Top>
     );
   }
