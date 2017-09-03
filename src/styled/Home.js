@@ -16,7 +16,7 @@ export const Header = styled.header`
   font-size: 3em;
   padding: 1vmin 1vmin 1vmin 1vmin;
   border: 1px solid black;
-  background-color: #a9c298;
+  background-color: #BF4342;
 `
 
 export const Footer = styled.footer`
@@ -30,5 +30,5 @@ font-size: 1em;
 `
 
 export const Body = styled.body`
-  background-color: yellow;
+  background-color: #E7D7C1;
 `
