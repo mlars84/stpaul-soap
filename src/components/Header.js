@@ -9,6 +9,7 @@ class Header extends React.Component {
       <Top>
         <div>
           <h4>Saint Paul Soap</h4>
+          <img src="src/assets/IMG_3649.JPG" alt="" />
         </div>
       </Top>
     );

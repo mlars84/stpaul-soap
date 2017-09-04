@@ -1,6 +1,7 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
-import { All, Body, Header, Footer } from '../styled/Home'
+import { All, Body, Header, Footer, testImg } from '../styled/Home'
+import imgOne from '../styled/img'
 
 class Home extends Component {
   render() {
@@ -10,10 +11,11 @@ class Home extends Component {
           <Header>
             StPaulSoap.COM
           </Header>
-          <Body>
+          {/* <imgOne {src="src/assets/img1.JPG"} /> */}
+          <Body className="body">
             This is the body
           </Body>
-          <Footer>
+          <Footer className="footer">
             thanks for stopping by :)
           </Footer>
         </All>

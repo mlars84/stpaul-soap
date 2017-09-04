@@ -8,7 +8,7 @@ export const Top = styled.header`
   font-style: normal;
   font-weight: 400;
   font-size: 3em;
-  padding: 1vmin 1vmin 1vmin 1vmin;
+  padding: 10em 10em 10em 10em;
   border: 1px solid black;
   background-color: yellow;
 `
