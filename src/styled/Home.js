@@ -9,7 +9,7 @@ export const All = styled.div`
 `
 
 export const Header = styled.header`
-  ${'' /* display: flex; */}
+  display: flex;
   color: black;
   text-align: center;
   font-style: normal;
@@ -18,10 +18,10 @@ export const Header = styled.header`
   padding: 1vmin 1vmin 1vmin 1vmin;
   border: 1px solid black;
   background-color: #BF4342;
-  ${'' /* background-image: url(${img1}); */}
   background-size: cover;
   background-repeat: no-repeat;
-  back
+  margin: 0 auto;
+  padding: 1em 3em;
 `
 
 export const Footer = styled.footer`
@@ -34,6 +34,7 @@ font-weight: 400;
 font-size: 1em;
 `
 
-export const Body = styled.body`
+export const styledBody = styled.body`
   background-color: #E7D7C1;
+  padding: 10em 10em;
 `

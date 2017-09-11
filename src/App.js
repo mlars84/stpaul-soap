@@ -26,4 +26,4 @@ class App extends React.Component {
 const Widget = (props) =>
 <input type="text" onChange={props.update} />
 
-export default App;
+export default App
