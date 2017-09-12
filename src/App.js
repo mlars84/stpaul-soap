@@ -1,29 +1,24 @@
-import React from 'react'
-import Home from './containers/Home'
+import React, { Component } from 'react'
+import { BrowserRouter, Route } from 'react-router-dom'
+import Home from './components/Home'
+import About from './components/About'
+import Contact from './components/Contact'
+import Nav from './components/Nav'
 
-class App extends React.Component {
-  constructor() {
-    super()
-    this.state = {
-      txt: 'this is state',
-      cat: 0
-    }
-  }
-  update( e ){
-    this.setState({ txt: e.target.value })
-  }
+
+class App extends Component {
   render() {
     return (
-      <div>
-        <Home />
-        <Widget update={this.update.bind(this)} />
-        <h1>{this.state.txt} - {this.state.cat}</h1>
+      <BrowserRouter>
+      <div className='container'>
+        <Nav />
+        <Route exact path='/' component={ Home } />
+        <Route path='/about' component={ About } />
+        <Route path='/contact' component={ Contact } />
       </div>
+    </BrowserRouter>
     )
   }
 }
-
-const Widget = (props) =>
-<input type="text" onChange={props.update} />
 
 export default App
