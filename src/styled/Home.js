@@ -1,15 +1,19 @@
 import styled from 'styled-components'
-import img1 from '../../src/assets/img1.JPG'
 
 export const All = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  flex: 1 1 auto;
+  position: relative;/* need this to position inner content */
+  overflow-y: auto;
   align-items: center;
   font-family: 'Oswald', 'Helvetica', sans-serif;
 `
 
 export const Header = styled.header`
-  display: flex;
+  flex: 0 0 auto;
+  position: static;
   color: black;
   text-align: center;
   font-style: normal;
@@ -24,9 +28,11 @@ export const Header = styled.header`
   padding: 1em 3em;
 `
 
-export const Footer = styled.footer`
-float: inherit;
-color: black;
+export const StlyedFooter = styled.footer`
+display: flex;
+flex: 0 0 auto;
+justify-content: center;
+color: #BF4342;
 text-align: center;
 font-family: 'Oswald';
 font-style: normal;

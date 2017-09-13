@@ -15,7 +15,7 @@ body {
   margin: 0;
   background-color: skyblue;
   padding: 20em 30em;
-  font-weight: 300;  
+  font-weight: 300;
 }
 
 #root {
@@ -24,7 +24,7 @@ body {
 
 a {
   text-decoration: none;
-  color: orange;
+  color: #BF4342;
 }
 
 .nav {
@@ -38,4 +38,9 @@ a {
 
 .active {
   font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
 }
