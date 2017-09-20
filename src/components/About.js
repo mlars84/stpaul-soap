@@ -16,7 +16,7 @@ class About extends Component {
       <MuiThemeProvider>
         <All>
           <div className='styledBody'>
-            <h1>About</h1>
+            <h1 className='about'>About</h1>
             <p>This is the about section. Emily plays cello and wants to play music
             for yoga practicioners.</p>
           </div>
