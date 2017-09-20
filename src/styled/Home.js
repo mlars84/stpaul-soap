@@ -4,7 +4,7 @@ export const All = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex: 1 1 auto;
+  ${'' /* flex: 1 1 auto; */}
   position: relative;/* need this to position inner content */
   overflow-y: auto;
   align-items: center;
@@ -12,7 +12,8 @@ export const All = styled.div`
 `
 
 export const Header = styled.header`
-  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
   position: static;
   color: black;
   text-align: center;
