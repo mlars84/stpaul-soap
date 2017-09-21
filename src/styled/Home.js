@@ -8,7 +8,6 @@ export const All = styled.div`
   position: relative;/* need this to position inner content */
   overflow-y: auto;
   align-items: center;
-  font-family: 'Oswald', 'Helvetica', sans-serif;
 `
 
 export const Header = styled.header`
@@ -17,12 +16,14 @@ export const Header = styled.header`
   position: static;
   color: black;
   text-align: center;
+  font-family: 'Dancing Script', cursive;
   font-style: normal;
   font-weight: 400;
   font-size: 3em;
   padding: 1vmin 1vmin 1vmin 1vmin;
-  border: 1px solid black;
-  background-color: #BF4342;
+  border: 1px solid #E7D7C1;
+  border-radius: 20%;
+  background-color: #99a7b7;
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
