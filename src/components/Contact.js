@@ -3,9 +3,15 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import { All } from '../styled/Home'
 import imageOne from '../assets/IMG_3636.JPG'
 import imageTwo from '../assets/IMG_3638.JPG'
-import styles from '../theme/global.css'
+import FlatButton from 'material-ui/FlatButton';
+import TextField from 'material-ui/TextField';
+import DropDownMenu from 'material-ui/DropDownMenu';
+import MenuItem from 'material-ui/MenuItem';
 
 class Contact extends Component {
+  constructor (props) {
+    super (props)
+  }
   render() {
     return(
       <MuiThemeProvider>
@@ -17,6 +23,28 @@ class Contact extends Component {
                 <li className='phone'>651-220-2458</li>
               </ul>
             </div>
+            <form>
+              <h3>Email order form: </h3>
+              <div>
+                <TextField
+                  hintText="Name"
+                /><br />
+                <TextField
+                  hintText="Phone"
+                /><br />
+                <TextField
+                  hintText="Email"
+                /><br />
+                <br />
+                <TextField
+                  hintText="Flavor?"
+                />
+                <TextField
+                  hintText="Quantity"
+                />
+                <FlatButton label="Submit" primary={true} />
+              </div>
+            </form>
             <div className="container">
               <div className="grid">
                 <div className="cell">

@@ -20,6 +20,11 @@ function Nav () {
           Contact
         </NavLink>
       </li>
+      <li>
+        <NavLink activeClassName='active' to='/events'>
+          Events
+        </NavLink>
+      </li>
     </ul>
   )
 }//end Nav function

@@ -26,6 +26,7 @@ class Home extends Component {
             <h4>
               Saint Paul Soaps are 100% handmade in Saint Paul, MN by Emily Dantuma.
               All ingredients are natural, food grade and plant-based.
+              Bars are $4 each or buy five and get one free ($16).
             </h4>
             <div className="container">
               <div className="grid">
