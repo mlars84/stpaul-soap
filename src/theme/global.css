@@ -1,18 +1,17 @@
 .styledBody {
-  display: flex;
-  margin: 0 auto;
+  /*display: flex;
+  margin: 0 auto;*/
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
-  margin: 0;
-  padding: 20em 30em;
+  /*margin: 0;*/
+  /*padding: 20em 30em;*/
   font-weight: 300;
   background-color: #e0d5b8;
 }
 
 body {
-  display: flex;
-  margin: 0 auto;
+  /*display: flex;*/
+  /*margin: 0 auto;*/
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
-  margin: 0;
   font-weight: 300;
   background-color: #e0d5b8;
 }
@@ -53,3 +52,38 @@ a:hover {
   flex-direction: column;
    transition: all .4s ease-in-out;
 }
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+
+.responsive-image {
+  max-width: 100%;
+  border-radius: 5px;
+  padding: 1em 1em 1em 1em;
+}
+
+.cell img {
+  display: block;
+}
+
+@media screen and (min-width: 600px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cell {
+    width: 50%;
+  }
+}
+
+/*.images {
+  max-width: 100%;
+  display: block;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 1em 1em auto;
+}*/
