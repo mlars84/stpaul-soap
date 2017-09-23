@@ -12,6 +12,7 @@ export const All = styled.div`
 
 export const Header = styled.header`
   display: flex;
+  max-width: 100%;
   justify-content: center;
   position: static;
   color: black;
@@ -22,11 +23,10 @@ export const Header = styled.header`
   font-size: 3em;
   padding: 1vmin 1vmin 1vmin 1vmin;
   border: 1px solid #E7D7C1;
-  border-radius: 20%;
+  border-radius: 5px;
   background-color: #99a7b7;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 0 auto;
   padding: 1em 3em;
 `
 
@@ -34,7 +34,7 @@ export const StlyedFooter = styled.footer`
 display: flex;
 flex: 0 0 auto;
 justify-content: center;
-color: #BF4342;
+color: #aa5647;
 text-align: center;
 font-family: 'Oswald';
 font-style: normal;

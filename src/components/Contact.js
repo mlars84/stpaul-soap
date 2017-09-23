@@ -1,8 +1,9 @@
 import React, {Component} from 'react'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import { All } from '../styled/Home'
-import image from '../assets/IMG_3636.JPG'
-
+import imageOne from '../assets/IMG_3636.JPG'
+import imageTwo from '../assets/IMG_3638.JPG'
+import styles from '../theme/global.css'
 
 class Contact extends Component {
   render() {
@@ -16,10 +17,13 @@ class Contact extends Component {
                 <li className='phone'>651-220-2458</li>
               </ul>
             </div>
-            <div class="container">
-              <div class="grid">
-                <div class="cell">
-                  <img src={image} alt="loading" class="responsive-image"/>
+            <div className="container">
+              <div className="grid">
+                <div className="cell">
+                  <img src={imageOne} alt="loading" className="responsive-image"/>
+                </div>
+                <div className="cell">
+                  <img src={imageTwo} alt="loading" className="responsive-image"/>
                 </div>
               </div>
             </div>
