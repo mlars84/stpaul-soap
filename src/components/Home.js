@@ -30,21 +30,27 @@ class Home extends Component {
               <div className="grid">
                 <div className="cell">
                   <img src={imageOne} className="responsive-image" />
+                  <h3>All Five!</h3>
                 </div>
                 <div className="cell">
                   <img src={imageTwo} className="responsive-image" />
+                  <h3>Mojito</h3>
                 </div>
                 <div className="cell">
                   <img src={imageThree} className="responsive-image" />
+                  <h3>Blah Blah</h3>
                 </div>
                 <div className="cell">
                   <img src={imageFour} className="responsive-image" />
+                  <h3>All Five!</h3>
                 </div>
                 <div className="cell">
                   <img src={imageFive} className="responsive-image" />
+                  <h3>All Five!</h3>
                 </div>
                 <div className="cell">
                   <img src={imageSix} className="responsive-image" />
+                  <h3>Vetiver</h3>
                 </div>
               </div>
             </div>

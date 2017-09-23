@@ -17,7 +17,13 @@ class About extends Component {
             <div className='styledBody'>
               <h1 className='about'>About</h1>
               <p>This is the about section. Saint Paul Soap is good soap.</p>
-              <img className="imageOne" src={imageOne} alt=""/>
+            </div>
+            <div class="container">
+              <div class="grid">
+                <div class="cell">
+                  <img className="imageOne" src={imageOne} alt="" class="responsive-image"/>
+                </div>
+              </div>
             </div>
         </All>
       </MuiThemeProvider>
