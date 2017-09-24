@@ -19,12 +19,13 @@ class Contact extends Component {
             <div className='styledBody'>
               <h1>Contact</h1>
               <ul className='contact-list'>
+                <li>Emily Dantuma</li>
                 <li className='email'><a href='dantuma65@gmail.com'>dantuma65@gmail.com</a></li>
                 <li className='phone'>651-220-2458</li>
               </ul>
             </div>
             <form>
-              <h3>Email order form: </h3>
+              <h3>Email order form: (Not currently functional... Email Emily directly for all orders.)</h3>
               <div>
                 <TextField
                   hintText="Name"

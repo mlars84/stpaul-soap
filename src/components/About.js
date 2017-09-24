@@ -17,7 +17,8 @@ class About extends Component {
         <All>
             <div className='styledBody'>
               <h1 className='about'>About</h1>
-              <h4>This is the about section. Saint Paul Soap is good soap.</h4>
+              <h4>Emily Dantuma began making soap in her garage 7 years ago and has since perfected
+              her recipe and sold soap at craft sales throughout the Twin Cities.</h4>
             </div>
             <div className="container">
               <div className="grid">

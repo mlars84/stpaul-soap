@@ -8,7 +8,7 @@ class Events extends Component {
       <MuiThemeProvider>
         <All>
             <div className='styledBody'>
-              <h1>No Events currently schedule. Check back soon!</h1>
+              <h2>No Events currently schedule. Check back soon!</h2>
             </div>
         </All>
       </MuiThemeProvider>

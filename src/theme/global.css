@@ -17,6 +17,11 @@ body {
   color: #aa5647;
 }
 
+h1 {
+  font-weight: bold;
+  color: black;
+}
+
 #root {
   min-height: 100vh;
 }
