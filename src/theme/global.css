@@ -14,7 +14,7 @@ body {
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
   font-weight: 300;
   background-color: #e0d5b8;
-  color: #aa5647;
+  color: #71251e;
 }
 
 h1 {
@@ -28,7 +28,7 @@ h1 {
 
 a {
   text-decoration: none;
-  color: #99a7b7;
+  color: #71251e;
   transition: all .3s ease-in-out;
 }
 

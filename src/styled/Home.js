@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import logo from '../assets/stpsoapLogo.png'
 
 export const All = styled.div`
   display: flex;
@@ -14,27 +15,47 @@ export const Header = styled.header`
   display: flex;
   max-width: 100%;
   justify-content: center;
+  background-image: url(${logo});
   position: static;
   color: black;
   text-align: center;
-  font-family: 'Dancing Script', cursive;
+  ${'' /* font-family: 'Dancing Script', cursive; */}
   font-style: normal;
   font-weight: 400;
   font-size: 3em;
-  padding: 1vmin 1vmin 1vmin 1vmin;
   border: 1px solid #E7D7C1;
-  border-radius: 5px;
-  background-color: #99a7b7;
-  background-size: cover;
+  border-radius: 20px;
+  background-color: #E7D7C1;
+  background-size: auto;
   background-repeat: no-repeat;
-  padding: 1em 3em;
+  padding: 1em 2.5em 2em 1em;
 `
+
+// export const Header = styled.header`
+//   display: flex;
+//   max-width: 100%;
+//   justify-content: center;
+//   background-image: url(${logo});
+//   position: static;
+//   color: black;
+//   text-align: center;
+//   font-family: 'Dancing Script', cursive;
+//   font-style: normal;
+//   font-weight: 400;
+//   font-size: 3em;
+//   border: 1px solid #E7D7C1;
+//   border-radius: 5px;
+//   background-color: white;
+//   background-size: auto;
+//   background-repeat: no-repeat;
+//   padding: 1em 3em;
+// `
 
 export const StlyedFooter = styled.footer`
 display: flex;
 flex: 0 0 auto;
 justify-content: center;
-color: #aa5647;
+color: #71251e;
 text-align: center;
 font-family: 'Oswald';
 font-style: normal;

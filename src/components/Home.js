@@ -20,7 +20,7 @@ class Home extends Component {
       <MuiThemeProvider>
         <All>
           <Header>
-            StPaulSoap.COM
+            {/* StPaulSoap.COM */}
           </Header>
           <styledBody className="styledBody">
             <h4>
