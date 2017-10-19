@@ -83,6 +83,15 @@ a:hover {
 .responsive-image {
   max-width: 90%;
   border-radius: 10px;
+  transition: all .3s ease-in-out;
+  /* filter: blur(3px); */
+  /* padding: 1em 1em 1em 1em; */
+}
+
+.responsive-image:hover {
+  max-width: 100%;
+  border-radius: 10px;
+  /* filter: blur(0); */
   /* padding: 1em 1em 1em 1em; */
 }
 
