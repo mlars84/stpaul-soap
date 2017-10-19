@@ -67,7 +67,7 @@ flex: 0 0 auto;
 justify-content: center;
 color: black;
 text-align: center;
-font-family: 'Oswald';
+font-family: 'Open Sans', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 1em;

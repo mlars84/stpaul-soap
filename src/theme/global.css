@@ -73,13 +73,18 @@ a:hover {
 
 .responsive-image {
   max-width: 90%;
-  border-radius: 20px;
+  border-radius: 10px;
   /* padding: 1em 1em 1em 1em; */
 }
 
 .cell img {
   display: block;
   margin: 1rem;
+}
+
+.soap-text {
+  text-align: center;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 600px) {

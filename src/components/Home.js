@@ -33,27 +33,27 @@ class Home extends Component {
               <div className="grid">
                 <div className="cell">
                   <img src={imageOne} className="responsive-image" />
-                  <h3>All Five!</h3>
+                  <h3 className="soap-text">All Five!</h3>
                 </div>
                 <div className="cell">
                   <img src={imageTwo} className="responsive-image" />
-                  <h3>Mojito</h3>
+                  <h3 className="soap-text">Mojito</h3>
                 </div>
                 <div className="cell">
                   <img src={imageThree} className="responsive-image" />
-                  <h3>Orange-Clove</h3>
+                  <h3 className="soap-text">Orange-Clove</h3>
                 </div>
                 <div className="cell">
                   <img src={imageFour} className="responsive-image" />
-                  <h3>Cedarwood</h3>
+                  <h3 className="soap-text">Cedarwood</h3>
                 </div>
                 <div className="cell">
                   <img src={imageFive} className="responsive-image" />
-                  <h3>Fir Needle</h3>
+                  <h3 className="soap-text">Fir Needle</h3>
                 </div>
                 <div className="cell">
                   <img src={imageSix} className="responsive-image" />
-                  <h3>Vetiver</h3>
+                  <h3 className="soap-text">Vetiver</h3>
                 </div>
               </div>
             </div>
