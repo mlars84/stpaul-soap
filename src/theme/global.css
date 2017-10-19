@@ -42,6 +42,8 @@ a:hover {
 
 .about {
   padding-right: 1em;
+  text-align: center;
+  font-size: 30px;
 }
 
 .nav {
@@ -63,6 +65,13 @@ a:hover {
   display: flex;
   flex-direction: column;
   transition: all .2s ease-in-out;
+}
+
+.form {
+  background: white;
+  border: 1px solid #00bcd1;
+  border-radius: 10px;
+  padding: 2vh 2vw 2vh 2vw;
 }
 
 .container {
@@ -114,6 +123,60 @@ a:hover {
 
 @media screen and (min-width: 1000px) {
   .cell {
+    width: calc(33.3333% - 2rem);
+  }
+}
+
+.container2 {
+  /* margin: 0 auto;
+  max-width: 1200px; */
+  padding: 0 1rem;
+}
+
+.responsive-image2 {
+  max-width: 90%;
+  border-radius: 10px;
+  /* padding: 1em 1em 1em 1em; */
+}
+
+.cell2 img {
+  display: block;
+  margin: 1rem;
+}
+
+.soap-text {
+  text-align: center;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 600px) {
+  .grid2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .cell2 {
+    width: 50%;
+    margin: 1rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .cell2 {
+    width: calc(100% / 3);
+    margin: 1rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .cell2 {
+    width: calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .cell2 {
     width: calc(33.3333% - 2rem);
   }
 }

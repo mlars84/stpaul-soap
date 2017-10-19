@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
+import { Divider } from '../styled/Home'
 
 
 function Nav () {

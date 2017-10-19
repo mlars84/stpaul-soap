@@ -16,7 +16,6 @@ export const Header = styled.header`
   justify-content: center;
   position: static;
   color: black;
-  text-shadow: 1px 1px 30px #f0f5d4;
   text-align: center;
   font-family: 'Dancing Script', cursive;
   font-style: normal;

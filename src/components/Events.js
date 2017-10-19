@@ -1,6 +1,20 @@
 import React, {Component} from 'react'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
-import { All } from '../styled/Home'
+import { All, MainText, Divider } from '../styled/Home'
+import BigCalendar from 'react-big-calendar';
+import moment from 'moment';
+
+// BigCalendar.momentLocalizer(moment);
+
+// const MyCalendar = props => (
+//   <div>
+//     <BigCalendar
+//       events={myEventsList}
+//       startAccessor='startDate'
+//       endAccessor='endDate'
+//     />
+//   </div>
+// );
 
 class Events extends Component {
   render() {
@@ -8,7 +22,9 @@ class Events extends Component {
       <MuiThemeProvider>
         <All>
             <div className='styledBody'>
-              <h2>No Events currently schedule. Check back soon!</h2>
+              <MainText>No Events currently schedule. Check back soon!</MainText>
+              <Divider />
+              {/* <MyCalendar /> */}
             </div>
         </All>
       </MuiThemeProvider>

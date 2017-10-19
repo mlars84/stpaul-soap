@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
-import { All } from '../styled/Home'
+import { All, MainText } from '../styled/Home'
 import imageOne from '../assets/IMG_3636.JPG'
 import imageTwo from '../assets/IMG_3638.JPG'
 import FlatButton from 'material-ui/FlatButton';
@@ -24,8 +24,8 @@ class Contact extends Component {
                 <li className='phone'>651-220-2458</li>
               </ul>
             </div>
-            <form>
-              <h3>Email order form: (Not currently functional... Email Emily directly for all orders.)</h3>
+            <form className="form">
+              <MainText>Email order form: (Not currently functional... Email Emily directly for all orders.)</MainText>
               <div>
                 <TextField
                   hintText="Name"
@@ -46,13 +46,13 @@ class Contact extends Component {
                 <FlatButton label="Submit" primary={true} />
               </div>
             </form>
-            <div className="container">
-              <div className="grid">
-                <div className="cell">
-                  <img src={imageOne} alt="loading" className="responsive-image"/>
+            <div className="container2">
+              <div className="grid2">
+                <div className="cell2">
+                  <img src={imageOne} alt="loading" className="responsive-image2"/>
                 </div>
-                <div className="cell">
-                  <img src={imageTwo} alt="loading" className="responsive-image"/>
+                <div className="cell2">
+                  <img src={imageTwo} alt="loading" className="responsive-image2"/>
                 </div>
               </div>
             </div>
