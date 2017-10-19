@@ -55,7 +55,7 @@ export const StlyedFooter = styled.footer`
 display: flex;
 flex: 0 0 auto;
 justify-content: center;
-color: #2a747e;
+color: black;
 text-align: center;
 font-family: 'Oswald';
 font-style: normal;
