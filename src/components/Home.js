@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
-import { All, Header, testImg } from '../styled/Home'
+import { All, Header, testImg, MainText, Divider } from '../styled/Home'
 import Footer from './Footer'
 import styledBody from '../styled/Home'
 import { CSSTransitionGroup } from 'react-transition-group'
@@ -18,16 +18,17 @@ class Home extends Component {
   render() {
     return(
       <MuiThemeProvider>
-        <All>
-          <Header>
-            {/* StPaulSoap.COM */}
-          </Header>
+          <All>
+            <Header>
+              StPaulSoap.COM
+            </Header>
           <styledBody className="styledBody">
-            <h3>
+            <MainText>
               Saint Paul Soaps are 100% handmade in Saint Paul, MN by Emily Dantuma.
               All ingredients are natural, food grade and plant-based.
               Bars are $4 each or buy five and get one free ($16).
-            </h3>
+            </MainText>
+            <Divider />
             <div className="container">
               <div className="grid">
                 <div className="cell">

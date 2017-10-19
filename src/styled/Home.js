@@ -5,9 +5,8 @@ export const All = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  ${'' /* flex: 1 1 auto; */}
-  position: relative;/* need this to position inner content */
-  overflow-y: auto;
+  flex: 1 1 auto;
+  position: relative;
   align-items: center;
 `
 
@@ -15,20 +14,31 @@ export const Header = styled.header`
   display: flex;
   max-width: 100%;
   justify-content: center;
-  background-image: url(${logo});
   position: static;
   color: black;
+  text-shadow: 1px 1px 30px #f0f5d4;
   text-align: center;
-  ${'' /* font-family: 'Dancing Script', cursive; */}
+  font-family: 'Dancing Script', cursive;
   font-style: normal;
   font-weight: 400;
   font-size: 3em;
   border: 1px solid #E7D7C1;
   border-radius: 20px;
-  background-color: #E7D7C1;
+  background-color: #779c52;
+  width: 100vw;
   background-size: auto;
   background-repeat: no-repeat;
   padding: 1em 2.5em 2em 1em;
+`
+
+export const MainText = styled.h3`
+  display: flex;
+  justify-content: center;
+  margin: 10vh 10vw 2vh 10vw;
+`
+
+export const Divider = styled.hr`
+  width: 80vw;
 `
 
 // export const Header = styled.header`
