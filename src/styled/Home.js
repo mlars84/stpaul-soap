@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import logo from '../assets/stpsoapLogo.png'
+// import logo from '../assets/stpsoapLogo.png'
 
 export const All = styled.div`
   display: flex;

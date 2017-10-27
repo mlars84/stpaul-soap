@@ -5,13 +5,8 @@ import imageOne from '../assets/IMG_3636.JPG'
 import imageTwo from '../assets/IMG_3638.JPG'
 import FlatButton from 'material-ui/FlatButton';
 import TextField from 'material-ui/TextField';
-import DropDownMenu from 'material-ui/DropDownMenu';
-import MenuItem from 'material-ui/MenuItem';
 
 class Contact extends Component {
-  constructor (props) {
-    super (props)
-  }
   render() {
     return(
       <MuiThemeProvider>

@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import { All, MainText, Divider } from '../styled/Home'
-import BigCalendar from 'react-big-calendar'
-import moment from 'moment'
+// import BigCalendar from 'react-big-calendar'
+// import moment from 'moment'
 // import listEvents from '../quickstart'
 
 // BigCalendar.momentLocalizer(moment);

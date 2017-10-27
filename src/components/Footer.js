@@ -1,6 +1,5 @@
-import React, {Component} from 'react'
+import React from 'react'
 import { StlyedFooter } from '../styled/Home'
-import { Link } from 'react-router-dom'
 
 class Footer extends React.Component {
   render() {

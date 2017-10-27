@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import { All, MainText, Divider } from '../styled/Home'
-import { CSSTransitionGroup } from 'react-transition-group'
 import imageOne from '../assets/IMG_3642.JPG'
 import imageTwo from '../assets/IMG_3630.JPG'
 
@@ -11,6 +10,7 @@ class About extends Component {
     console.log('props', props)
   }
   render() {
+    // const imageOne = this.props.imageOne
     console.log('this.props:', this.props)
     return(
       <MuiThemeProvider>
@@ -24,10 +24,10 @@ class About extends Component {
             <div className="container2">
               <div className="grid2">
                 <div className="cell2">
-                  <img className="imageOne" src={imageOne} alt="" className="responsive-image2"/>
+                  {<img className="imageOne" src={imageOne} alt="" className="responsive-image2"/>}
                 </div>
                 <div className="cell2">
-                  <img className="imageOne" src={imageTwo} alt="" className="responsive-image2"/>
+                  {<img className="imageOne" src={imageTwo} alt="" className="responsive-image2"/>}
                 </div>
               </div>
             </div>
