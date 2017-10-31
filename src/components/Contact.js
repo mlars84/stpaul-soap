@@ -7,6 +7,17 @@ import FlatButton from 'material-ui/FlatButton';
 import TextField from 'material-ui/TextField';
 
 class Contact extends Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      name: '',
+      phone: '',
+      email: '',
+      flavor: '',
+      quantity: ''
+    }
+  }
   render() {
     return(
       <MuiThemeProvider>
@@ -22,22 +33,20 @@ class Contact extends Component {
             <form className="form">
               <MainText>Email order form: (Not currently functional... Email Emily directly for all orders.)</MainText>
               <div>
-                <TextField
-                  hintText="Name"
-                /><br />
-                <TextField
-                  hintText="Phone"
-                /><br />
-                <TextField
-                  hintText="Email"
-                /><br />
+                <TextField hintText="Name" onChange={e => this.setState({ name: e.target.value })}/>  
                 <br />
-                <TextField
-                  hintText="Flavor?"
-                />
-                <TextField
-                  hintText="Quantity"
-                />
+                <TextField hintText="Phone" onChange={e => this.setState({ phone: e.target.value })}/>
+                <br />
+                <TextField hintText="Email" onChange={e => this.setState({ email: e.target.value })}/>
+                <br />
+                <br />
+                <TextField hintText="Flavor?" onChange={e => this.setState({ flavor: e.target.value })}/>
+                <TextField hintText="Quantity" onChange={e => this.setState({ quantity: e.target.value })}/>
+                <ul>
+                  <h3>Your Order:</h3>
+                  <li>{this.state.flavor}</li>
+                  <li>{this.state.quantity}</li>
+                </ul>  
                 <FlatButton label="Submit" primary={true} />
               </div>
             </form>
